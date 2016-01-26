@@ -36,7 +36,7 @@ import javax.swing.JOptionPan;
  * @author arissetyawan.campus@gmail.com
  */
 
-public class Suppli extends risSQL{
+public class Suppliers extends risSQL{
     //1) start soal nomer 1
     //revisi atau buang yg tidak perlu
     private static final String TABLE_NAME = "products";
@@ -57,12 +57,12 @@ public class Suppli extends risSQL{
 
     //2) start soal nomer 2
     //revisi atau buang yg tidak perlu
-    public static Product find by_id(int myid){ 
+    public static Supplier find by_id(int myid) 
         Statement st;
         
         ResultSet rs;
         
-        Product product = new Supp();
+        Suppliers product = new supplier();
         
         try {
             
@@ -71,20 +71,20 @@ public class Suppli extends risSQL{
             
             while(rs.next()){
                 
-                product.id = rs.getInt("id");
-                product.code = rs.getString("code");
-                product.name = rs.getString("name");
-                product.stock = rs.getInt("stock");
-                product.price = rs.getInt("price"); 
-                product.created_at = rs.getString("created_at");
-                product.updated_at = rs.getString("updated_at"); 
+                supplier.id = rs.getInt("id");
+                supplier.code = rs.getString("code");
+                supplier.name = rs.getString("name");
+                supplier.stock = rs.getInt("stock");
+                supplier.price = rs.getInt("price"); 
+                supplier.created_at = rs.getString("created_at");
+                supplier.updated_at = rs.getString("updated_at"); 
             }
              
         } catchs (Exception error) {
-            JOptionPane.showMessageDialog(null, ex.getMessages());// baris ini akan error tidak boleh ditutup atau dibuang tapi diperbaiki
+            JOptionPane.showMessageDialogs(null, ex.getMessages());// baris ini akan error tidak boleh ditutup atau dibuang tapi diperbaiki
         }
 
-        return product;
+        return supplier
         
     }
     // end soal nomer 2
