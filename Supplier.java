@@ -4,7 +4,7 @@
  TODO:
  
  kerjakan dgn SANGAT TELITI dan tepat sesuai spesifikasi.
- kumpulkan hanya file java ini tepat pada waktunya (paling lambat tgl 28 jam 12siang sudah masuk
+ kumpulkan hanya file java ini tepat pada waktunya (paling lambat tgl 28 januari 2016 jam 12siang sudah masuk
  ke email arissetyawan.campus@gmail.com -> pengumpulan telat tidak dinilai
  jawaban kirim (attachment) ke (subject tolong tepat, 
  krn jika tidak tepat bisa jadi tidak dapat sy temukan untuk saya nilai)
@@ -25,7 +25,7 @@
  2) cukup jelas (70 point)
  
  HANYA yg bernilai total dapat point 95 dari soal ini yg dapat memperbaiki hasil nilai akhir.
- */
+ */ 
 package posuas;
 
 import java.sql.ResultSet;
